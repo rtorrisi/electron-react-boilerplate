@@ -29,7 +29,24 @@
     "release": true,
     "node_modules": true,
     "npm-debug.log.*": true,
-    "test/**/__snapshots__": true,
     "yarn.lock": true
+  },
+  "files.exclude": {
+    ".dockerignore": true,
+    ".editorconfig": true,
+    ".eslint*": true,
+    ".flowconfig": true,
+    ".prettierrc": true,
+    ".stylelintrc": true,
+    "*.yml": true,
+    "babel.config.js": true,
+    "configs/": true,
+    "dist/": true,
+    "dll/": true,
+    "flow-typed/": true,
+    "internals/": true,
+    "release/": true,
+    "renovate.json": true,
+    ".vscode/": true
   }
 }
